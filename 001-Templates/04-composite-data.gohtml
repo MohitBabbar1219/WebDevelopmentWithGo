@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Go Template</title>
+</head>
+<body>
+{{/*------------- slice -------------*/}}
+{{/*{{range .}}*/}}
+{{/*<h1>{{.}}</h1>*/}}
+{{/*{{end}}*/}}
+
+{{/*{{range $index, $sage := .}}*/}}
+{{/*<h1>{{$index}} - {{$sage}}</h1>*/}}
+{{/*{{end}}*/}}
+
+{{/*------------- map -------------*/}}
+{{/*{{range $key, $val := .}}*/}}
+{{/*<h1>{{$key}} - {{$val}}</h1>*/}}
+{{/*{{end}}*/}}
+
+{{/*------------- struct -------------*/}}
+{{/*<h1>{{.Name}} - {{.Motto}}</h1>*/}}
+</body>
+</html>
